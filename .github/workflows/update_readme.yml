@@ -13,27 +13,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: GitHub README.md Metrics
+      - name: Run GitHub Stats Action
+      # - name: GitHub README.md Metrics
         uses: thanhhaudev/github-stats@1.5.0
       # - name: Run GitHub Stats Action
       #  uses: thanhhaudev/github-stats@master
         env:
           BRANCH_NAME: ${{ github.ref_name }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # GitHub token, required
-          # WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           # WAKATIME_RANGE: all_time # default = last_7_days, last_30_days, last_6_months, last_year, all_time
           # WAKATIME_DATA: "EDITORS,LANGUAGES,PROJECTS,OPERATING_SYSTEMS" # show data, separated by comma
           SHOW_METRICS: "COMMIT_TIMES_OF_DAY,LANGUAGE_PER_REPO,COMMIT_DAYS_OF_WEEK,WAKATIME_SPENT_TIME,LANGUAGES_AND_TOOLS,EDITORS,LANGUAGES,PROJECTS,OPERATING_SYSTEMS" # show metrics, separated by comma
           # TIME_ZONE: MDT # default = UTC
-          # TIME_LAYOUT: 2006-01-02 15:04:05 -0700          
+          TIME_LAYOUT: "2006-01-02 15:04:05 -0700"
           SHOW_LAST_UPDATE: "true" # show last update time
           ONLY_MAIN_BRANCH: "true" # only fetch data from the main branch
-          # COMMIT_MESSAGE: "📝 Update README.md"
-          # COMMIT_USER_NAME: "GitHub Action"
+          COMMIT_MESSAGE: "📝 Update README.md"
+          COMMIT_USER_NAME: "nukerbaby"
           # COMMIT_USER_EMAIL: action@github.com
           # SECTION_NAME:	readme-stats
           HIDE_REPO_INFO: "true" # hide the repository information in action logs
-          PROGRESS_BAR_VERSION: 2 # use square symbols
+          PROGRESS_BAR_VERSION: "2" # use square symbols
           EXCLUDE_FORK_REPOS:	"true" # exclude forks
           #LANGUAGES_AND_TOOLS: 
           SIMPLIFY_COMMIT_TIMES_TITLE: "true" # show friendly titles
