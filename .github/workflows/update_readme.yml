@@ -23,7 +23,7 @@ jobs:
           WAKATIME_RANGE: last_7_days # default = last_7_days, last_30_days, last_6_months, last_year, all_time
           WAKATIME_DATA: "EDITORS,LANGUAGES,PROJECTS,OPERATING_SYSTEMS" # show data, separated by comma
           SHOW_METRICS: "COMMIT_TIMES_OF_DAY,LANGUAGE_PER_REPO,COMMIT_DAYS_OF_WEEK,WAKATIME_SPENT_TIME,LANGUAGES_AND_TOOLS,EDITORS,LANGUAGES,PROJECTS,OPERATING_SYSTEMS" # show metrics, separated by comma
-          # TIME_ZONE: MDT # default = UTC
+          TIME_ZONE: MST # default = UTC
           TIME_LAYOUT: "2006-01-02 15:04:05 MST"
           SHOW_LAST_UPDATE: "true" # show last update time
           ONLY_MAIN_BRANCH: "true" # only fetch data from the main branch
