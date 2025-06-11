@@ -41,19 +41,24 @@ Saturday                 6 commits           🟩🟩🟩🟩🟩🟩🟩🟩�
 
 ```text
 📝 Editors:
-No data available
+VS Code                  1 hr 10 mins        🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩   100.00%
 
 💬 Languages:
-No data available
+JSON                     35 mins             🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   50.23%
+JavaScript               16 mins             🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   23.02%
+Bash                     12 mins             🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   18.25%
+Others                   3 mins              🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.51%
 
 📦 Projects:
-No data available
+logger                   36 mins             🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   51.62%
+nukerbabyBot             24 mins             🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   35.09%
+Others                   9 mins              🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.29%
 
 💻 Operating Systems:
-No data available
+Windows                  1 hr 10 mins        🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩   100.00%
 ```
 
 
 
-⏳ *Last updated on 2025-06-10 11:57:01 MST*
+⏳ *Last updated on 2025-06-11 05:50:44 MST*
 <!--END_SECTION:readme-stats-->
